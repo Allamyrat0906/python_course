@@ -1,0 +1,6 @@
+x=int(input("x: "))
+y=int(input("y: "))
+ranx=(x<=8)
+rany=(y<=8)
+isWhite=((x%2==0 and y%2==1) or (x%2==1 and y%2==0))
+print(isWhite)
