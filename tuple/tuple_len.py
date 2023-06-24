@@ -36,7 +36,7 @@
 
 
 
-fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+# fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
 
 # (green, yellow, *red,blue) = fruits
 
@@ -44,7 +44,7 @@ fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
 # print(yellow)
 # print(red)
 # print(blue)
-food=list(fruits)
-y=food.append("yellow")
-fruits=tuple(y)
-print(fruits)
+# food=list(fruits)
+# y=food.append("yellow")
+# fruits=tuple(y)
+# print(fruits)

@@ -170,8 +170,19 @@ myfamily = {
   }
 }
 
-x=myfamily["child1"].keys()
-print(x)
+select=input("Selected ")
+ok=myfamily[select]
+print(ok)
+sel =input("sel :")
+print(ok[sel])
+
+
+
+
+
+
+
+
 
 
 
