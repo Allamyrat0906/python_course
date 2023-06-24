@@ -1,6 +1,9 @@
-# month=["","January",  "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-# seosons=["Winter", "Spring","Summer", "Autumn"]
-# num=int(input("Number : "))
+month=["January",  "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+seosons=["Winter", "Spring","Summer", "Autumn"]
+num=int(input("Number : "))
+
+for i in range(month):
+    print(i)
 
 # if num>0 and num<13:
 #     m=month[num]
